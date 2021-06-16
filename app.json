@@ -2,11 +2,12 @@
   "name": "rentx",
   "displayName": "rentx",
   "expo": {
-    "name": "rentx",
+    "name": "Rentx",
     "slug": "rentx",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "App - Modelo Locação de Carros"
   }
 }
