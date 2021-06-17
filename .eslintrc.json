@@ -53,11 +53,7 @@
         ],
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "react/react-in-jsx-scope": "off",
-        "react/jsx-props-no-spreading": ["error", {
-            "html": "ignore",
-            "custom": "ignore",
-            "exceptions": []
-          }],
+
         "prettier/prettier": "error"
     },
     "settings": {
