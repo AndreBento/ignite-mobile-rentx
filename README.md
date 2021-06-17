@@ -37,7 +37,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 📚  O que Aprendemos - Chapter III
 
-Nesso projeto apendemos sobre:
+Nesso projeto apendemos sobre<br />
 ✔️ Criação das Interfaces
 
 - Apresentação do módulo - 02:49
@@ -59,6 +59,10 @@ Nesso projeto apendemos sobre:
 - Navegação - 05:18
 - Implementando a Navegação - 22:08
 
+✔️ Consumindo API
+
+- Introdução a API - 16:04
+- Utilizando o JsonServer - 06:05
 
 ## 🚀 Getting started
 
