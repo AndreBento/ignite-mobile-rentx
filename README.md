@@ -63,6 +63,10 @@ Nesso projeto apendemos sobre<br />
 
 - Introdução a API - 16:04
 - Utilizando o JsonServer - 06:05
+- Listando carros da API - 25:18
+- Passando dados entre telas - 10:12
+- Exibindo Icones Dinamicamente - 08:59
+- Intervalos no Calendário - 25:47
 
 ## 🚀 Getting started
 
@@ -79,6 +83,9 @@ $ yarn
 
 # Run the Expo server
 $ expo start
+
+# Run the Json Server
+$ yarn api
 
 ```
 
