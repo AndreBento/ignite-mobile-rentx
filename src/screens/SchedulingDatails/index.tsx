@@ -73,7 +73,7 @@ export function SchedulingDatails() {
             ...dates,
         ];
 
-        await api.post('schedules_bycars', {
+        await api.post('schedules_byuser', {
             user_id: 1,
             car,
         });

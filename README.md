@@ -71,6 +71,7 @@ Nesso projeto apendemos sobre<br />
 - Enviando Agendamento para API - 22:27
 - Menu Flutuante - 06:33
 - Listando Agendamentos do Usuário - 08:03
+- Exibindo Carros Agendados - 13:18
 ## 🚀 Getting started
 
 Clone o projeto e acesse a pasta
