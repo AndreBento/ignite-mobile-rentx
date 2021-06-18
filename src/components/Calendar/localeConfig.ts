@@ -1,7 +1,6 @@
 const ptBR = {
     monthNames: [
         'Janeiro',
-        'Janeiro',
         'Fevereiro',
         'Março',
         'Abril',
@@ -9,6 +8,7 @@ const ptBR = {
         'Junho',
         'Julho',
         'Agosto',
+        'Setembro',
         'Outubro',
         'Novembro',
         'Dezembro',
@@ -22,6 +22,7 @@ const ptBR = {
         'Jun',
         'Jul',
         'Ago',
+        'Set',
         'Out',
         'Novo',
         'Dez',

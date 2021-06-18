@@ -43,7 +43,7 @@ function Calendar({ markedDates, onDayPress }: CalendarProps) {
                     size={24}
                     color={theme.colors.text}
                     name={
-                        direction == 'left' ? 'chevron-left' : 'chevron-right'
+                        direction === 'left' ? 'chevron-left' : 'chevron-right'
                     }
                 />
             )}
