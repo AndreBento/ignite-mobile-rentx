@@ -67,6 +67,7 @@ Nesso projeto apendemos sobre<br />
 - Passando dados entre telas - 10:12
 - Exibindo Icones Dinamicamente - 08:59
 - Intervalos no Calendário - 25:47
+- Finalizando o Calendário - 13:12
 
 ## 🚀 Getting started
 
