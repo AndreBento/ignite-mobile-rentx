@@ -72,6 +72,8 @@ Nesso projeto apendemos sobre<br />
 - Menu Flutuante - 06:33
 - Listando Agendamentos do Usuário - 08:03
 - Exibindo Carros Agendados - 13:18
+- Reaproveitando o Componente Car - 13:34
+- Usabilidade no Botão - 05:56
 ## 🚀 Getting started
 
 Clone o projeto e acesse a pasta
