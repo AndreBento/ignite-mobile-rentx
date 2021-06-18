@@ -74,6 +74,7 @@ Nesso projeto apendemos sobre<br />
 - Exibindo Carros Agendados - 13:18
 - Reaproveitando o Componente Car - 13:34
 - Usabilidade no Botão - 05:56
+- Finalizando o botão - 08:34
 ## 🚀 Getting started
 
 Clone o projeto e acesse a pasta
