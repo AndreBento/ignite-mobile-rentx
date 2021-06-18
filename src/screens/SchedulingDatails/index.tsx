@@ -73,6 +73,11 @@ export function SchedulingDatails() {
             ...dates,
         ];
 
+        await api.post('schedules_bycars', {
+            user_id: 1,
+            car,
+        });
+
         api.put(`/schedules_bycars/${car.id}`, {
             id: car.id,
             unavailable_dates,

@@ -69,7 +69,8 @@ Nesso projeto apendemos sobre<br />
 - Intervalos no Calendário - 25:47
 - Finalizando o Calendário - 13:12
 - Enviando Agendamento para API - 22:27
-
+- Menu Flutuante - 06:33
+- Listando Agendamentos do Usuário - 08:03
 ## 🚀 Getting started
 
 Clone o projeto e acesse a pasta
