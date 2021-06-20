@@ -95,7 +95,7 @@ export function CarDetails() {
                 style={[
                     headerStyleAnimation,
                     styles.header,
-                    { backgroundColor: theme.colors.backgroun_secondary },
+                    { backgroundColor: theme.colors.background_secondary },
                 ]}
             >
                 <Header>
