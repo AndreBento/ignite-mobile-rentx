@@ -10,6 +10,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#1B1B1F"
+      },
     "description": "App - Modelo Locação de Carros"
   },
   "web": {

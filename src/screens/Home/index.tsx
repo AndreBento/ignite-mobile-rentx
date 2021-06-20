@@ -25,6 +25,7 @@ import {
 export function Home() {
     const [cars, setCars] = useState<CarDTO>([]);
     const [loading, setLoading] = useState(true);
+
     const navigation = useNavigation();
     const theme = useTheme();
 
@@ -61,7 +62,10 @@ export function Home() {
             <Header>
                 <HeaderContent>
                     <Logo width={RFValue(108)} height={RFValue(12)} />
-                    <TotalCars>Total de carros </TotalCars>
+                    <TotalCars>
+                        Total de {cars.length} carro
+                        {cars.length === 1 ? '' : 's'}
+                    </TotalCars>
                 </HeaderContent>
             </Header>
             {loading ? (
@@ -69,7 +73,7 @@ export function Home() {
             ) : (
                 <CarList
                     data={cars}
-                    keyExtractor={item => String(item.id)}
+                    keyExtractor={item => item.id}
                     renderItem={({ item }) => (
                         <Car
                             data={item}

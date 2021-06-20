@@ -37,7 +37,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 📚  O que Aprendemos - Chapter III
 
-Nesso projeto apendemos sobre<br />
+✔️ Módulo - Consumindo API - 07:32:06 em 32 aulas
+
 ✔️ Criação das Interfaces
 
 - Apresentação do módulo - 02:49
@@ -75,6 +76,21 @@ Nesso projeto apendemos sobre<br />
 - Reaproveitando o Componente Car - 13:34
 - Usabilidade no Botão - 05:56
 - Finalizando o botão - 08:34
+
+✔️ Módulo - Animações - 03:00:01 em 17 aulas
+
+- Introdução - 02:16
+- Iniciando o Slide de Imagens - 08:07
+- Obtendo a imagem em foco - 16:40
+- Instalação Reanimated - 09:08
+- React Native Reanimated - 07:25
+- Primeira Animação - 13:24
+- Transições - 09:23
+- Splash Screen - 11:08
+
+Dicas
+https://cubic-bezier.com/#.43,.49,.75,.75
+
 ## 🚀 Getting started
 
 Clone o projeto e acesse a pasta
