@@ -87,10 +87,19 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Primeira Animação - 13:24
 - Transições - 09:23
 - Splash Screen - 11:08
+- Animando a Splash - 18:31
+- Worklet Animation - 04:32
+- Animando o Scroll - 13:22
+- Melhorando o Scroll -14:02
+- Gestos do Usuário - 25:17
+- Previnir voltar a Splash - 05:29
+- Lottie - 15:33
+- A linha de chegada - 04:28
+- Conclusão - 01:16
 
 Dicas
-https://cubic-bezier.com/#.43,.49,.75,.75
-
+- [Cubic Bezier](https://cubic-bezier.com/#.43,.49,.75,.75)
+- [Lottie Files](https://lottiefiles.com/)
 ## 🚀 Getting started
 
 Clone o projeto e acesse a pasta
