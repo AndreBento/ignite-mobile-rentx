@@ -53,7 +53,7 @@ interface RentalPeriod {
     end: string;
 }
 
-export function SchedulingDatails() {
+export function SchedulingDetails() {
     const [loading, setLoading] = useState(false);
     const [rentalPeriod, setRentalPeriod] = useState<RentalPeriod>(
         {} as RentalPeriod,
