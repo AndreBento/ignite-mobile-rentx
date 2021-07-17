@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
-import { Alert, StatusBar } from 'react-native';
+import { StatusBar, Button } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { useNetInfo } from '@react-native-community/netinfo';
+import { synchronize } from '@nozbe/watermelondb/sync';
+
+import { database } from '../../database'
+import { api } from '../../services/api';
 
 import Logo from '../../assets/logo.svg';
 
-import { api } from '../../services/api';
 import { CarDTO } from '../../dtos/CarDTO';
 
 import { Car } from '../../components/Car';
@@ -23,6 +26,29 @@ export function Home() {
 
     function handleCarDetails(car: CarDTO) {
         navigation.navigate('CarDetails', { car });
+    }
+
+    async function offlineSynchronize() {
+        await synchronize({
+            database,
+            pullChanges: async ({ lastPulledAt }) => {
+                const response = await api.get(`cars/sync/pull?lastPulledVersion=${lastPulledAt || 0}`);
+
+                const { changes, latestVersion } = response.data;
+
+                console.log("BACKEND PARA APP");
+                console.log(changes);
+
+                return { changes, timestamp: latestVersion }
+            },
+            pushChanges: async ({ changes }) => {
+                const user = changes.user;
+                await api.post(`/users/sync`, user);
+
+                console.log("APP PARA BACKEND");
+                console.log(changes);
+            },
+        });
     }
 
     useEffect(() => {
@@ -49,14 +75,6 @@ export function Home() {
         };
     }, []);
 
-    useEffect(() => {
-        if (netInfo.isConnected) {
-            Alert.alert('Você está On-line');
-        } else {
-            Alert.alert('Você está Off-line');
-        }
-    }, [netInfo.isConnected]);
-
     return (
         <Container>
             <StatusBar
@@ -75,6 +93,9 @@ export function Home() {
                     )}
                 </HeaderContent>
             </Header>
+
+            <Button title="Sincronizar" onPress={offlineSynchronize} />
+
             {loading ? (
                 <LoadAnimation />
             ) : (
